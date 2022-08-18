@@ -40,3 +40,4 @@ func determineEncoding(r io.Reader) encoding.Encoding {
 	e, _, _ := charset.DetermineEncoding(bytes, "")
 	return e
 }
+ 
